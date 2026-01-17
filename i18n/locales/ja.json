@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "home": {
+      "title": "chibivue.land - みんなを歓迎する王国",
+      "description": "インターネット上に存在する王国。シンボルのかわいこちゃんと温かいコミュニティの本拠地。"
+    },
+    "about": {
+      "title": "About - chibivue.land",
+      "description": "みんなを歓迎する王国、chibivue.landについて。"
+    },
+    "community": {
+      "title": "コミュニティ - chibivue.land",
+      "description": "chibivue.landコミュニティに参加して、いろんな人とつながろう。"
+    },
+    "activities": {
+      "title": "アクティビティ - chibivue.land",
+      "description": "chibivue.landのプロジェクトとイベントを探索。"
+    }
+  },
+  "nav": {
+    "home": "ホーム",
+    "about": "About",
+    "community": "コミュニティ",
+    "activities": "アクティビティ"
+  },
+  "hero": {
+    "subtitle": "みんなを歓迎する王国",
+    "description": "chibivue.landへようこそ - インターネット上の王国。シンボルのかわいこちゃんに会いましょう！",
+    "joinDiscord": "Discordに参加する",
+    "learnChibivue": "chibivueを学ぶ",
+    "scroll": "スクロールして探索",
+    "discordUrl": "https://discord.gg/aVHvmbmSRy"
+  },
+  "about": {
+    "title": "chibivue.landについて",
+    "subtitle": "みんなを歓迎する王国",
+    "features": {
+      "kingdom": {
+        "title": "王国",
+        "description": "chibivue.landはインターネット上に存在する王国。みんなのための創造的で温かい空間。"
+      },
+      "kawaiko": {
+        "title": "かわいこちゃん",
+        "description": "王国を案内し、コミュニティに喜びを広める愛らしい鴨のシンボル。"
+      },
+      "vue": {
+        "title": "みんな歓迎",
+        "description": "どんな背景を持つ人も一緒に集まり、学び、共有し、素晴らしいものを作る温かく包括的なコミュニティ。"
+      }
+    }
+  },
+  "activities": {
+    "title": "活動",
+    "subtitle": "コミュニティの活動",
+    "items": {
+      "learning": {
+        "title": "プロジェクト",
+        "description": "オープンソースプロジェクトを公開しています。"
+      },
+      "building": {
+        "title": "執筆・登壇",
+        "description": "記事の執筆や登壇活動を協力しています。"
+      },
+      "sharing": {
+        "title": "イベント",
+        "description": "不定期にイベントを開催しています。"
+      }
+    },
+    "viewAll": "アクティビティを見る"
+  },
+  "join": {
+    "title": "王国に参加する",
+    "description": "chibivue.landの住民になりましょう！Discordで素敵な人たちと繋がり、温かいコミュニティの一員になりましょう。",
+    "cta": "Discordに参加する",
+    "discordUrl": "https://discord.gg/aVHvmbmSRy"
+  },
+  "footer": {
+    "tagline": "みんなを歓迎する王国",
+    "community": "コミュニティ",
+    "resources": "リソース",
+    "rights": "All rights reserved."
+  },
+  "aboutPage": {
+    "title": "chibivue.landについて",
+    "description": "自然と生まれたコミュニティの物語",
+    "story": {
+      "title": "私たちの物語",
+      "p1": "chibivue.land は最初、{founder} が始めた chibivue book プロジェクト（{book}）のために生まれました。",
+      "p1Links": {
+        "founder": { "text": "ubugeeei", "url": "https://github.com/ubugeeei" },
+        "book": { "text": "book.chibivue.land", "url": "https://book.chibivue.land" }
+      },
+      "p2": "しかし、自然とインターネット上のコミュニティへと発展し、その役割は拡張されていきました。今では、垣根なく様々な人々が集まる温かい王国となっています。",
+      "p3": "この王国には、シンボルの「かわいこちゃん」という鴨がいます。コミュニティの親しみやすさと、誰もが歓迎されることを象徴しています。"
+    },
+    "milestones": {
+      "title": "私たちの旅",
+      "birth": {
+        "title": "王国の誕生",
+        "description": "chibivue.landはchibivueプロジェクトとコミュニティの本拠地として設立されました。"
+      },
+      "growth": {
+        "title": "コミュニティの成長",
+        "description": "新しい貢献者と学習者が王国に参加し、コミュニティが拡大しました。"
+      },
+      "future": {
+        "year": "未来",
+        "title": "旅を続ける",
+        "description": "私たちは王国で一緒に成長し、学び、作り続けます。"
+      }
+    },
+    "kawaiko": {
+      "title": "かわいこちゃんに会う",
+      "description": "かわいこちゃんは王国のシンボル。すべてを見守る鴨。",
+      "fact1": "種族: とてもかわいい鴨",
+      "fact2": "好きなもの: みんなを助けること",
+      "fact3": "役割: 王国のシンボル & ガイド"
+    },
+    "kingdom": {
+      "title": "建国記",
+      "lore1": "遥か昔、インターネットという混沌の海に、一人の開拓者が現れた。その名は ubugeeei。彼は Vue.js の深淵を覗き込み、その内部構造を解き明かす書物「chibivue」を著した。この書は多くの迷える魂を導き、やがて彼の周りには同じ志を持つ者たちが集うようになった。",
+      "lore2": "こうして生まれたのが chibivue.land である。最初は書物のための小さな領地に過ぎなかったが、国王 ubugeeei の徳を慕い、様々な背景を持つ者たちが自然と集まり、いつしか一つの王国となった。国境はなく、身分もなく、ただ「ここにいたい」という想いだけで繋がる、不思議な国。",
+      "lore3": "しかし、ある時を境に国王は姿を消した。もののけの王として祟り神となり、もはや人前に現れることはない。だが心配は無用である。国王が生前に側近として任命した者たちが、建国の精神を受け継ぎ、王国の文化と歴史を守り続けている。彼らは国王の意志を体現し、新たな旅人を温かく迎え入れる。",
+      "lore4": "王国のシンボルである「かわいこちゃん」は、すべてを見守る存在として君臨している。その愛らしい姿とは裏腹に、達観した眼差しで王国の行く末を見つめている。かわいこちゃんの加護のもと、この王国は今日も静かに、しかし確かに息づいている。",
+      "loreNote": "※ この建国記は LLM によって生成されました",
+      "entrance": "王国の門は常に開かれている。入り口は Discord にある。",
+      "enterButton": "王国に入る"
+    }
+  },
+  "communityPage": {
+    "title": "コミュニティ",
+    "description": "世界中の人々とつながる",
+    "platformsTitle": "私たちの居場所",
+    "github": {
+      "description": "オープンソースプロジェクトを探索し、コードに貢献し、他の開発者と協力しましょう。",
+      "linkText": "GitHubへ"
+    },
+    "discord": {
+      "description": "Discordサーバーに参加して、チャット、質問、コミュニティイベントに参加しましょう。",
+      "linkText": "Discordに参加"
+    },
+    "guidelinesTitle": "コミュニティガイドライン",
+    "guidelines": {
+      "respect": {
+        "title": "敬意を持つ",
+        "description": "誰に対しても親切で敬意を持って接しましょう。私たちは皆、一緒に学び成長するためにここにいます。"
+      },
+      "share": {
+        "title": "知識を共有",
+        "description": "学んだことを共有して他の人を助けましょう。すべての貢献がコミュニティを強くします。"
+      },
+      "grow": {
+        "title": "成長し続ける",
+        "description": "好奇心を持ち、学び続けましょう。成長の旅は実りあるものです。"
+      }
+    }
+  },
+  "activitiesPage": {
+    "title": "アクティビティ",
+    "description": "コミュニティを動かすプロジェクトとイベントを発見",
+    "projectsTitle": "注目プロジェクト",
+    "projects": {
+      "chibivue": {
+        "name": "chibivue",
+        "description": "ゼロから最小実装を構築してVue.jsの内部を学ぶオンラインブック。",
+        "url": "https://github.com/chibivue-land/chibivue"
+      },
+      "land": {
+        "name": "chibivue.land",
+        "description": "NuxtとTresJSで構築されたchibivue.land王国の公式ウェブサイト。",
+        "url": "https://github.com/chibivue-land/chibivue.land"
+      },
+      "vueyous": {
+        "name": "VueYous",
+        "description": "VueUseの最小再現リポジトリ。コンポーザブル関数の作り方を学べる教育プロジェクト。",
+        "url": "https://github.com/chibivue-land/vueyous"
+      },
+      "japaneseCompanies": {
+        "name": "Japanese Companies Using Vue.js",
+        "description": "Vue.jsを採用している日本企業のキュレーションリスト。",
+        "url": "https://github.com/chibivue-land/japanese-companies-using-vuejs"
+      },
+      "zennPlaza": {
+        "name": "Zenn Plaza",
+        "description": "Vue.js、Nuxt、関連ライブラリについての記事を書くコミュニティ。",
+        "url": "https://github.com/chibivue-land/articles-zenn-plaza"
+      }
+    },
+    "subProjectsTitle": "コミュニティサブプロジェクト",
+    "subProjects": {
+      "chibinuxt": {
+        "name": "chibinuxt",
+        "description": "Nuxtの内部を学ぶための最小実装プロジェクト。",
+        "url": "https://github.com/shoma-mano/chibinuxt"
+      }
+    },
+    "viewProject": "プロジェクトを見る",
+    "eventsTitle": "コミュニティ活動",
+    "events": {
+      "writing": {
+        "title": "執筆・登壇活動",
+        "description": "記事の執筆や登壇活動をお互いに協力し合い、知識を広めています。",
+        "frequency": "随時"
+      },
+      "gathering": {
+        "title": "コミュニティイベント",
+        "description": "勉強会や新年会など、不定期にイベントを開催しています。",
+        "frequency": "不定期"
+      }
+    },
+    "contribute": {
+      "title": "貢献したいですか？",
+      "description": "あらゆる種類の貢献を歓迎します - コード、ドキュメント、翻訳、または口コミでの宣伝でも！",
+      "cta": "GitHubで始める"
+    }
+  }
+}

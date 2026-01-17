@@ -1,75 +1,70 @@
-# Nuxt Minimal Starter
+# chibivue.land
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+chibivue.land is the official website for the chibivue community - a virtual kingdom on the internet where Vue.js enthusiasts gather to learn, build, and share.
 
-## Setup
+## Tech Stack
 
-Make sure to install dependencies:
+- **Framework**: [Nuxt 4](https://nuxt.com/)
+- **3D Graphics**: [TresJS](https://tresjs.org/)
+- **Styling**: [Lightning CSS](https://lightningcss.dev/)
+- **Internationalization**: [@nuxtjs/i18n](https://i18n.nuxtjs.org/)
+- **Color Mode**: [@nuxtjs/color-mode](https://color-mode.nuxtjs.org/)
+- **Package Manager**: [Bun](https://bun.sh/)
+- **Deployment**: GitHub Pages
+
+## Development
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
+# Install dependencies
 bun install
+
+# Start development server
+bun dev
+
+# Build for production
+bun build
+
+# Generate static site
+bun generate
+
+# Preview production build
+bun preview
 ```
 
-## Development Server
+## Project Structure
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+```
+chibivue.land/
+├── app/
+│   ├── app.vue
+│   ├── assets/css/          # Global styles
+│   ├── components/          # Vue components
+│   │   ├── home/            # Home page sections
+│   │   ├── kawaiko/         # Mascot components
+│   │   ├── layout/          # Header, Footer, etc.
+│   │   ├── tres/            # 3D scene components
+│   │   └── ui/              # Reusable UI components
+│   ├── composables/         # Vue composables
+│   ├── layouts/             # Nuxt layouts
+│   └── pages/               # Route pages
+├── i18n/locales/            # Translation files (EN/JA)
+├── public/                  # Static assets
+└── .github/workflows/       # CI/CD
 ```
 
-## Production
+## Features
 
-Build the application for production:
+- Responsive design (mobile-first)
+- Dark/Light mode support
+- Multi-language support (English/Japanese)
+- Interactive 3D scene with TresJS
+- Static site generation for GitHub Pages
 
-```bash
-# npm
-npm run build
+## Links
 
-# pnpm
-pnpm build
+- [chibivue Book](https://ubugeeei.github.io/chibivue/)
+- [GitHub Organization](https://github.com/chibivue-land)
 
-# yarn
-yarn build
+## License
 
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+MIT

@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "home": {
+      "title": "chibivue.land - A Kingdom for Everyone",
+      "description": "A kingdom on the internet where everyone is welcome. Home to kawaiko the duck symbol and a warm community."
+    },
+    "about": {
+      "title": "About - chibivue.land",
+      "description": "Learn about chibivue.land, a kingdom that welcomes everyone."
+    },
+    "community": {
+      "title": "Community - chibivue.land",
+      "description": "Join the chibivue.land community and connect with people from all backgrounds."
+    },
+    "activities": {
+      "title": "Activities - chibivue.land",
+      "description": "Explore projects and events at chibivue.land."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "community": "Community",
+    "activities": "Activities"
+  },
+  "hero": {
+    "subtitle": "A Kingdom That Welcomes Everyone",
+    "description": "Welcome to chibivue.land - a kingdom on the internet. Meet kawaiko, our duck symbol!",
+    "joinDiscord": "Join Discord",
+    "learnChibivue": "Learn chibivue",
+    "scroll": "Scroll to explore",
+    "discordUrl": "https://discord.gg/aVHvmbmSRy"
+  },
+  "about": {
+    "title": "About chibivue.land",
+    "subtitle": "A kingdom that welcomes everyone",
+    "features": {
+      "kingdom": {
+        "title": "The Kingdom",
+        "description": "chibivue.land is an imaginary kingdom on the internet, a creative and welcoming space for everyone to call home."
+      },
+      "kawaiko": {
+        "title": "Meet kawaiko",
+        "description": "Our adorable duck symbol who guides visitors through the kingdom and spreads joy in the community."
+      },
+      "vue": {
+        "title": "Everyone Welcome",
+        "description": "A warm and inclusive community where people from all backgrounds come together to learn, share, and create amazing things."
+      }
+    }
+  },
+  "activities": {
+    "title": "Activities",
+    "subtitle": "Community activities",
+    "items": {
+      "learning": {
+        "title": "Projects",
+        "description": "We publish open-source projects."
+      },
+      "building": {
+        "title": "Writing & Speaking",
+        "description": "We collaborate on articles and talks."
+      },
+      "sharing": {
+        "title": "Events",
+        "description": "We hold events occasionally."
+      }
+    },
+    "viewAll": "View Activities"
+  },
+  "join": {
+    "title": "Join the Kingdom",
+    "description": "Become a citizen of chibivue.land! Connect with wonderful people on Discord and be part of our warm, welcoming community.",
+    "cta": "Join Discord",
+    "discordUrl": "https://discord.gg/aVHvmbmSRy"
+  },
+  "footer": {
+    "tagline": "A kingdom that welcomes everyone",
+    "community": "Community",
+    "resources": "Resources",
+    "rights": "All rights reserved."
+  },
+  "aboutPage": {
+    "title": "About chibivue.land",
+    "description": "The story of a community that grew naturally",
+    "story": {
+      "title": "Our Story",
+      "p1": "chibivue.land was originally created by {founder} for the chibivue book project ({book}).",
+      "p1Links": {
+        "founder": { "text": "ubugeeei", "url": "https://github.com/ubugeeei" },
+        "book": { "text": "book.chibivue.land", "url": "https://book.chibivue.land" }
+      },
+      "p2": "However, it naturally evolved into an internet community, and its role expanded over time. Today, it has become a warm kingdom where people from all backgrounds gather without barriers.",
+      "p3": "The kingdom is home to kawaiko (かわいこちゃん), our beloved duck symbol who represents the friendly nature of our community and the fact that everyone is welcome here."
+    },
+    "milestones": {
+      "title": "Our Journey",
+      "birth": {
+        "title": "The Kingdom is Born",
+        "description": "chibivue.land was established as the home of the chibivue project and community."
+      },
+      "growth": {
+        "title": "Community Growth",
+        "description": "The community expanded with new contributors and learners joining the kingdom."
+      },
+      "future": {
+        "year": "Future",
+        "title": "Continuing the Journey",
+        "description": "We continue to grow, learn, and build together in our kingdom."
+      }
+    },
+    "kawaiko": {
+      "title": "Meet kawaiko",
+      "description": "kawaiko (かわいこちゃん) is the symbol of our kingdom. A duck who watches over all.",
+      "fact1": "Species: A very cute duck (かわいい鴨)",
+      "fact2": "Loves: Helping people",
+      "fact3": "Role: Kingdom symbol and guide"
+    },
+    "kingdom": {
+      "title": "The Chronicle of Foundation",
+      "lore1": "Long ago, in the chaotic sea called the Internet, a pioneer appeared. His name was ubugeeei. He peered into the abyss of Vue.js and authored a tome called \"chibivue\" that unraveled its inner workings. This scripture guided many lost souls, and before long, those who shared his vision began to gather around him.",
+      "lore2": "Thus was born chibivue.land. At first, it was merely a small domain for the book, but drawn by the virtue of King ubugeeei, people of all backgrounds naturally gathered, and it became a kingdom. A strange nation with no borders, no ranks—connected only by the simple desire to \"be here.\"",
+      "lore3": "Yet at some point, the king vanished. He became a spirit king, a curse god, never to appear before mortals again. But fear not. Those whom the king appointed as aides during his lifetime carry on the founding spirit, preserving the kingdom's culture and history. They embody the king's will and warmly welcome new travelers.",
+      "lore4": "The kingdom's symbol, \"kawaiko,\" reigns as one who watches over all. Despite the adorable appearance, kawaiko gazes upon the kingdom's fate with enlightened eyes. Under kawaiko's blessing, this kingdom breathes quietly yet surely, even today.",
+      "loreNote": "* This chronicle was generated by an LLM",
+      "entrance": "The gates of the kingdom are always open. The entrance lies in Discord.",
+      "enterButton": "Enter the Kingdom"
+    }
+  },
+  "communityPage": {
+    "title": "Our Community",
+    "description": "Connect with people from around the world",
+    "platformsTitle": "Where to Find Us",
+    "github": {
+      "description": "Explore our open-source projects, contribute code, and collaborate with other developers.",
+      "linkText": "Visit GitHub"
+    },
+    "discord": {
+      "description": "Join our Discord server to chat, ask questions, and participate in community events.",
+      "linkText": "Join Discord"
+    },
+    "guidelinesTitle": "Community Guidelines",
+    "guidelines": {
+      "respect": {
+        "title": "Be Respectful",
+        "description": "Treat everyone with kindness and respect. We're all here to learn and grow together."
+      },
+      "share": {
+        "title": "Share Knowledge",
+        "description": "Help others by sharing what you've learned. Every contribution makes our community stronger."
+      },
+      "grow": {
+        "title": "Keep Growing",
+        "description": "Stay curious and keep learning. The journey of growth is a rewarding one."
+      }
+    }
+  },
+  "activitiesPage": {
+    "title": "Activities",
+    "description": "Discover the projects and events that drive our community",
+    "projectsTitle": "Featured Projects",
+    "projects": {
+      "chibivue": {
+        "name": "chibivue",
+        "description": "An online book for learning Vue.js internals by building a minimal implementation from scratch.",
+        "url": "https://github.com/chibivue-land/chibivue"
+      },
+      "land": {
+        "name": "chibivue.land",
+        "description": "The official website of chibivue.land kingdom, built with Nuxt and TresJS.",
+        "url": "https://github.com/chibivue-land/chibivue.land"
+      },
+      "vueyous": {
+        "name": "VueYous",
+        "description": "A minimal replicate of VueUse. An educational project for learning how to build composable functions.",
+        "url": "https://github.com/chibivue-land/vueyous"
+      },
+      "japaneseCompanies": {
+        "name": "Japanese Companies Using Vue.js",
+        "description": "A curated list of Japanese companies using Vue.js in production.",
+        "url": "https://github.com/chibivue-land/japanese-companies-using-vuejs"
+      },
+      "zennPlaza": {
+        "name": "Zenn Plaza",
+        "description": "A community for writing articles about Vue.js, Nuxt, and related libraries.",
+        "url": "https://github.com/chibivue-land/articles-zenn-plaza"
+      }
+    },
+    "subProjectsTitle": "Community Sub-Projects",
+    "subProjects": {
+      "chibinuxt": {
+        "name": "chibinuxt",
+        "description": "A minimal implementation project for learning Nuxt internals.",
+        "url": "https://github.com/shoma-mano/chibinuxt"
+      }
+    },
+    "viewProject": "View Project",
+    "eventsTitle": "Community Activities",
+    "events": {
+      "writing": {
+        "title": "Writing & Speaking",
+        "description": "We collaborate on writing articles and giving talks, sharing knowledge with the wider community.",
+        "frequency": "Ongoing"
+      },
+      "gathering": {
+        "title": "Community Events",
+        "description": "We hold irregular events like study sessions and new year parties to connect with each other.",
+        "frequency": "Irregular"
+      }
+    },
+    "contribute": {
+      "title": "Want to Contribute?",
+      "description": "We welcome contributions of all kinds - code, documentation, translations, or just spreading the word!",
+      "cta": "Get Started on GitHub"
+    }
+  }
+}

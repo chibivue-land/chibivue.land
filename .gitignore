@@ -22,3 +22,10 @@ logs
 .env
 .env.*
 !.env.example
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+*storybook.log
+storybook-static

@@ -1,0 +1,110 @@
+:root {
+  /* Light Mode Colors */
+  --color-primary: #5c4b8a;
+  --color-primary-hover: #4a3d70;
+  --color-accent: #d4af37;
+  --color-accent-hover: #c9a02e;
+  --color-background: #fffff0;
+  --color-background-secondary: #f5f5e6;
+  --color-text: #2d2d2d;
+  --color-text-muted: #5a5a5a;
+  --color-border: #e0e0d0;
+  --color-card: #ffffff;
+  --color-card-hover: #f9f9f0;
+  --color-surface: rgba(255, 255, 240, 0.8);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-full: 9999px;
+
+  /* Typography */
+  --font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+
+  /* Line Heights */
+  --leading-tight: 1.25;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.75;
+
+  /* Breakpoints (for reference in JS) */
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+
+  /* Z-Index */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fixed: 300;
+  --z-modal-backdrop: 400;
+  --z-modal: 500;
+  --z-tooltip: 600;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 350ms ease;
+
+  /* Container */
+  --container-max: 1200px;
+  --container-padding: var(--spacing-md);
+}
+
+/* Dark Mode */
+.dark {
+  --color-primary: #9b8dc8;
+  --color-primary-hover: #a99dd3;
+  --color-accent: #ffd700;
+  --color-accent-hover: #e6c200;
+  --color-background: #0d0d1a;
+  --color-background-secondary: #161629;
+  --color-text: #f5f5f5;
+  --color-text-muted: #a0a0a0;
+  --color-border: #2d2d4a;
+  --color-card: #1a1a2e;
+  --color-card-hover: #232342;
+  --color-surface: rgba(26, 26, 46, 0.8);
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --container-padding: var(--spacing-lg);
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --container-padding: var(--spacing-xl);
+  }
+}

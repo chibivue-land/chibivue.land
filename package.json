@@ -1,18 +1,48 @@
 {
-  "name": "chibivue.land",
+  "name": "chibivue-land",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
+  "packageManager": "bun@1.1.43",
   "scripts": {
-    "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "build": "nuxt generate",
     "preview": "nuxt preview",
+    "lint": "oxlint",
+    "fmt": "oxfmt app tests",
+    "fmt:check": "oxfmt --check app tests",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:lighthouse": "vitest run --config vitest.lighthouse.config.ts",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "nuxt": "^3.13.2",
-    "vue": "latest",
-    "vue-router": "latest"
+    "@nuxt/scripts": "^0.11.0",
+    "@nuxtjs/color-mode": "^3.5.2",
+    "@nuxtjs/i18n": "^9.1.0",
+    "@tresjs/cientos": "^4.1.0",
+    "@tresjs/core": "^4.3.2",
+    "@tresjs/nuxt": "^4.0.0",
+    "nuxt": "^3.16.1",
+    "three": "^0.172.0",
+    "vue": "^3.5.13"
   },
-  "packageManager": "pnpm@9.12.1"
+  "devDependencies": {
+    "@nuxt/a11y": "^1.0.0-alpha.1",
+    "@nuxt/test-utils": "^3.23.0",
+    "@types/three": "^0.172.0",
+    "@vue/test-utils": "^2.4.6",
+    "chrome-launcher": "^1.2.1",
+    "happy-dom": "^20.3.1",
+    "lighthouse": "^13.0.1",
+    "lightningcss": "^1.29.1",
+    "oxfmt": "^0.24.0",
+    "oxlint": "^1.39.0",
+    "serve": "^14.2.5",
+    "typescript": "^5.7.3",
+    "vitest": "^3.2.4",
+    "vue-tsc": "^3.2.2"
+  }
 }
