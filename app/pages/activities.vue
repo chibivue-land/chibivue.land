@@ -38,18 +38,22 @@ const projects = computed(() => [
     tags: ["Zenn", "Articles", "Community"],
   },
   {
+    name: t("activitiesPage.projects.chibinuxt.name"),
+    description: t("activitiesPage.projects.chibinuxt.description"),
+    link: "https://github.com/chibivue-land/chibinuxt",
+    tags: ["Nuxt", "Learning"],
+  },
+  {
+    name: t("activitiesPage.projects.chibivitest.name"),
+    description: t("activitiesPage.projects.chibivitest.description"),
+    link: "https://github.com/chibivue-land/chibivitest",
+    tags: ["Vitest", "Learning"],
+  },
+  {
     name: t("activitiesPage.projects.land.name"),
     description: t("activitiesPage.projects.land.description"),
     link: "https://github.com/chibivue-land/chibivue.land",
     tags: ["Nuxt", "TresJS", "Website"],
-  },
-]);
-
-const subProjects = computed(() => [
-  {
-    name: t("activitiesPage.subProjects.chibinuxt.name"),
-    description: t("activitiesPage.subProjects.chibinuxt.description"),
-    link: "https://github.com/shoma-mano/chibinuxt",
   },
 ]);
 
@@ -94,27 +98,6 @@ const events = computed(() => [
               variant="outline"
               size="sm"
               class="mt-lg"
-            >
-              {{ t("activitiesPage.viewProject") }}
-            </BaseButton>
-          </BaseCard>
-        </div>
-      </div>
-    </section>
-
-    <section class="sub-projects-section section">
-      <div class="container">
-        <h2 class="mb-xl">{{ t("activitiesPage.subProjectsTitle") }}</h2>
-        <div class="sub-projects-grid grid grid-cols-1 grid-cols-2">
-          <BaseCard v-for="project in subProjects" :key="project.name" padding="md">
-            <h3 class="sub-project-name">{{ project.name }}</h3>
-            <p class="sub-project-description">{{ project.description }}</p>
-            <BaseButton
-              :href="project.link"
-              :external="true"
-              variant="outline"
-              size="sm"
-              class="mt-md"
             >
               {{ t("activitiesPage.viewProject") }}
             </BaseButton>
@@ -218,20 +201,6 @@ const events = computed(() => [
   border-radius: var(--radius-full);
   font-size: var(--font-size-xs);
   color: var(--color-text-muted);
-}
-
-.sub-projects-section {
-  background-color: var(--color-background-secondary);
-}
-
-.sub-project-name {
-  font-size: var(--font-size-lg);
-  margin-bottom: var(--spacing-xs);
-}
-
-.sub-project-description {
-  color: var(--color-text-muted);
-  font-size: var(--font-size-sm);
 }
 
 .events-list {

@@ -184,14 +184,16 @@
         "name": "Zenn Plaza",
         "description": "A community for writing articles about Vue.js, Nuxt, and related libraries.",
         "url": "https://github.com/chibivue-land/articles-zenn-plaza"
-      }
-    },
-    "subProjectsTitle": "Community Sub-Projects",
-    "subProjects": {
+      },
       "chibinuxt": {
         "name": "chibinuxt",
         "description": "A minimal implementation project for learning Nuxt internals.",
-        "url": "https://github.com/shoma-mano/chibinuxt"
+        "url": "https://github.com/chibivue-land/chibinuxt"
+      },
+      "chibivitest": {
+        "name": "chibivitest",
+        "description": "A minimal implementation project for learning Vitest internals.",
+        "url": "https://github.com/chibivue-land/chibivitest"
       }
     },
     "viewProject": "View Project",
